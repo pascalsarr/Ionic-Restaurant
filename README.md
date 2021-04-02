@@ -2,6 +2,11 @@
 
 Application d'un restaurant en ligne implémenté avec  le front-end ionic et la base de donnée Strapi.
 
+## Tools and Technologies
+
+- Technology:  Ionic.
+-  Database: Strapi.
+
 # Installation
 
 Pour tester (installer d'abord les dépendances avec yarn ou npm) :
