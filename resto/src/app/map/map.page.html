@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Localisation restaurants</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <agm-map [zoom]="13" [latitude]="lat" [longitude]="lng">
+    <agm-marker
+      *ngFor="let m of markers, let i = index"
+      [latitude]="m.lat"
+      [longitude]="m.lng"
+    >
+      <agm-info-window>
+        <strong>{{m.label}} </strong>
+      </agm-info-window>
+    </agm-marker>
+  </agm-map>
+</ion-content>
